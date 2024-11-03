@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6; /* Light gray background for the entire page */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0e141b; /* Dark color for the title */
+}
+
+.login-button {
+  padding: 10px 15px;
+  background-color: #1980e6; /* Blue color for the button */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.job-container {
+  background-color: #ffffff; /* White background for job listings */
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0e141b; /* Dark color for job title */
+}
+
+.job-info {
+  color: #4e7397; /* Grayish blue for job info */
+  font-size: 14px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0e141b; /* Dark color for section titles */
+  margin-top: 15px;
+}
+
+.job-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0e141b; /* Dark color for descriptions */
+  margin-top: 10px;
+}
+
+.requirements-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: #0e141b; /* Dark color for list items */
+}
+
+.apply-button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #1980e6; /* Blue color for apply button */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+}
